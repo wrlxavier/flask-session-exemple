@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "static/js", //Escolhe o diretório de saída
+        "target": "ES6", //Escolhe a versão do JS de saída
+        "noEmitOnError": true, //Impede que erros sejam compilados
+        "noImplicitAny": true, //Impede tipagem any implicita
+        "removeComments": true, //Remove comentários feitos no TS para o JS
+        "strictNullChecks": true, //Obriga o dev a declarar null em tipo nulo implicito
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "include": ["static/ts/**/*"]
+}
